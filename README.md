@@ -1,35 +1,53 @@
 # Lab-1_202001448
-This Repository is for the Lab-1 individual submission for IT314 - Software Engineering
+IT314-Software Engineering Lab-1
+
+
+Name: Priyanshu Parmar
+
+student ID: 202001448
+
 
 Identifying Functional and Non-Functional Requirements
 
 Q.1. Identify FRs and NFRs:
-The institute has been recently set up to provide state-of-the-art research facilities in the
-field of Software Engineering. Apart from research scholars (students) and professors, it also
-includes quite a large number of employees who work on different projects undertaken by
-the institution.
+state-of-the-art research facilities
 
-As the size and capacity of the institute is increasing with the time, it has been proposed to
-develop a Library Information System (LIS) for the benefit of students and employees of the
-institute. LIS will enable the members to borrow a book (or return it) with ease while sitting
-at his desk/chamber. The system also enables a member to extend the date of his borrowing
-if no other booking for that particular book has been made. For the library staff, this system
-aids them to easily handle day-to-day book transactions. The librarian, who has
-administrative privileges and complete control over the system, can enter a new record into
-the system when a new book has been purchased, or remove a record in case any book is
-taken off the shelf. Any non-member is free to use this system to browse/search books
-online. However, issuing or returning books is restricted to valid users (members) of LIS only.
-The final deliverable would be a web application (using the recent HTML 5), which should
-run only within the institute LAN. Although this reduces security risk of the software to a
-large extent, care should be taken no confidential information (eg., passwords) is stored in
-plain text.
+Library Information System (LIS) 
+scope: Web application of the Library Information System (LIS) which will have four types of users 1) Librarian(administrative privileges) 2) student 3) professor 4) outside user.
+
+functional requirements:
+librarians will be able to add a new record for the book in the system.
+librarians will be able to remove a record in the system.
+users will be able to borrow books from the system for a certain amount of time.
+Users can extend the date of return of the borrowed book if no other booking is available.
+Any outside user can also search books in the system but he/she can’t borrow or return the book to the system.
+users can search for the book in the system with respect to the author name or publishing.
+web application using the recent HTML 5.
+Non functional requirements
+security: the system must work only on the institution LAN.
+the storage should be big to include all the books information in the library
+performance is the major role in the system and should work on all models system which including from window 7 and all the macbooks.
+cost of the system should be the main factor in system/
+At any time we could develop the campus area and make it large so the number of users visiting the website can increase drastically which should be taken care of. scalability is an important factor here.
+accessibility is an important factor as the otherside user can only search in the system, the students and professor can borrow and return the books and other materials available in the systems.
 
 Q.2. Identify scope, features and non-functional aspects of the following problem.
+disabling hearing loss
 
-Approximately 5% of the world population (or a staggering 466 million people) suffers from
-disabling hearing loss. We set out to create an impactful solution for this community that
-addresses some of their everyday needs. Our mobile application uses artificial intelligence to
-recognize key sound events of interest to this community, such as car horns and babies,
-where immediate alerts and continual logging are critical for the user. This app is optimized
-for Android with low-latency so that it works in real-time for use.
+scope: mobile application for disabling hearing loss which will alert the user who has hearing disability, while the user is crossing the road, or fire alarm, etc.
+
+functional requirements:
+Mobile Application use Artificial intelligence to detect sounds like car horn, and babies, in fire emergencies, etc.
+Mobile Application will alert the user in critical situations by vibrating.
+Mobile Application will store some information about a user's friends and family, and send immediate messages to them while the user is found in any critical situations.
+Mobile Application will allow users to add a new sound track which needs to be detected in future.
+Mobile Application will track the live location of the user.
+
+
+
+
+non functional requirements 
+Mobile Application should be very accurate.
+Mobile Application should consume less power and should have little latency.
+
 
